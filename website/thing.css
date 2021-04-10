@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    background-color: #394e87;
+    color: #fff;
+}
+
+div.header {
+    background-color: #394e87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.header,
+a {
+    color: #fff;
+}
+
+.logo {
+    background-color: #2b3865;
+    border-radius: 13px;
+    position: relative;
+    transform: translateY(25%);
+    margin-right: 5px;
+}
+
+.body div {
+    background-color: #2b3865;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.body div h2, h3, p, form {
+    padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input {
+    background-color: #252954;
+    border-color: #313139;
+    color: white;
+    border-radius: 10px;
+}
+
+input:focus {
+    border-color: #e6d4a4;
+}
+
+hr {
+    color: rgb(68, 90, 164);
+    background-color: rgb(68, 90, 164);
+    border: none;
+    height: 5px;
+}
+
+
+/* #wldLink {
+    display: none;
+} */
+
+#Large,
+#Medium,
+#Small {
+    overflow: hidden;
+}
+
+.Large,
+.Medium,
+.Small {
+    cursor: pointer;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.rLarge,
+.rMedium,
+.rSmall {
+    cursor: pointer;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: inline-block;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+
+.rrLarge,
+.rrMedium,
+.rrSmall {
+    cursor: pointer;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: inline-block;
+    transition: ease;
+    transition-duration: 0.5s;
+    -moz-transform: rotate(180deg);
+    /* FF3.5+ */
+    -o-transform: rotate(180deg);
+    /* Opera 10.5 */
+    -webkit-transform: rotate(180deg);
+    /* Saf3.1+, Chrome */
+    transform: rotate(180deg);
+}
+
+#Large {
+    height: auto;
+}
+
+#Medium {
+    height: auto;
+}
+
+#Small {
+    height: auto;
+}
+
+.largeWld::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 26px;
+    height: 26px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/3/3f/Large_world_icon.png/revision/latest/scale-to-width-down/26?cb=20200921104250');
+}
+
+.mediumWld::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 22px;
+    height: 22px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/d/de/Medium_world_icon.png/revision/latest/scale-to-width-down/22?cb=20200921104310');
+}
+
+.smallWld::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 18px;
+    height: 18px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/0/01/Small_world_icon.png/revision/latest/scale-to-width-down/18?cb=20200921104331');
+}
+
+.corruption::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 22px;
+    height: 20px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/5/50/Corruption_icon.png/revision/latest/scale-to-width-down/22?cb=20200921104001');
+}
+
+.crimson::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 18px;
+    height: 22px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a6/Crimson_icon.png/revision/latest/scale-to-width-down/18?cb=20200921104026');
+}
+
+.drunk::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 40px;
+    height: 22px;
+    background: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/5/50/Corruption_icon.png/revision/latest/scale-to-width-down/22?cb=20200921104001'), url('https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a6/Crimson_icon.png/revision/latest/scale-to-width-down/18?cb=20200921104026') right;
+    background-repeat: no-repeat;
+}
+
+.journey::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 18px;
+    height: 24px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/d/dd/Journey_mode_icon.png/revision/latest/scale-to-width-down/18?cb=20200601103348');
+}
+
+.classic::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 18px;
+    height: 24px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/5/50/Classic_mode_icon.png/revision/latest/scale-to-width-down/18?cb=20200601103218');
+}
+
+.expert::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 18px;
+    height: 26px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/2/26/Expert_mode_icon.png/revision/latest/scale-to-width-down/18?cb=20200601181228');
+}
+
+.master::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 18px;
+    height: 26px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/1/19/Master_mode_icon.png/revision/latest/scale-to-width-down/18?cb=20200601103301');
+}
+
+.ftw {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    transform: translatey(25%);
+    width: 22px;
+    height: 22px;
+    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/3/32/Bestiary_Boss_Enemy.png/revision/latest/scale-to-width-down/22?cb=20200814185636');
+}

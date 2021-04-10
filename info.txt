@@ -1,0 +1,15 @@
+This is a series of worlds that are both Drunk and For The Worthy.
+
+Naming convention: DrunkFTW-XX
+[X]X - World Size (L = Large; M = Medium; S = Small)
+X[X] - Difficulty (J = Journey; C = Classic; E = Expert; M = Master)
+
+If you want to find a specific version quickly you can use[url=https://soaringgecko.github.io/DrunkFTW/website/] this website[/url].
+
+World Info:
+
+World Name - 
+
+World Size - Large/Medium/Small
+
+Difficulty - Journey/Classic/Expert/Master
