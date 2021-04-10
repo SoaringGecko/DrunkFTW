@@ -30,7 +30,10 @@ a {
     width: 100%;
 }
 
-.body div h2, h3, p, form {
+.body div h2,
+h3,
+p,
+form {
     padding: 10px;
 }
 
@@ -135,7 +138,7 @@ hr {
     transform: translatey(25%);
     width: 26px;
     height: 26px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/3/3f/Large_world_icon.png/revision/latest/scale-to-width-down/26?cb=20200921104250');
+    background-image: url('../Large_world_icon.png');
 }
 
 .mediumWld::after {
@@ -145,7 +148,7 @@ hr {
     transform: translatey(25%);
     width: 22px;
     height: 22px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/d/de/Medium_world_icon.png/revision/latest/scale-to-width-down/22?cb=20200921104310');
+    background-image: url('../Medium_world_icon.png');
 }
 
 .smallWld::after {
@@ -155,7 +158,7 @@ hr {
     transform: translatey(25%);
     width: 18px;
     height: 18px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/0/01/Small_world_icon.png/revision/latest/scale-to-width-down/18?cb=20200921104331');
+    background-image: url('../Small_world_icon.png');
 }
 
 .corruption::after {
@@ -196,7 +199,7 @@ hr {
     transform: translatey(25%);
     width: 18px;
     height: 24px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/d/dd/Journey_mode_icon.png/revision/latest/scale-to-width-down/18?cb=20200601103348');
+    background-image: url('../Journey_mode_icon.png');
 }
 
 .classic::after {
@@ -206,7 +209,7 @@ hr {
     transform: translatey(25%);
     width: 18px;
     height: 24px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/5/50/Classic_mode_icon.png/revision/latest/scale-to-width-down/18?cb=20200601103218');
+    background-image: url('../Classic_mode_icon.png');
 }
 
 .expert::after {
@@ -216,7 +219,7 @@ hr {
     transform: translatey(25%);
     width: 18px;
     height: 26px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/2/26/Expert_mode_icon.png/revision/latest/scale-to-width-down/18?cb=20200601181228');
+    background-image: url('../Expert_mode_icon.png');
 }
 
 .master::after {
@@ -226,7 +229,7 @@ hr {
     transform: translatey(25%);
     width: 18px;
     height: 26px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/1/19/Master_mode_icon.png/revision/latest/scale-to-width-down/18?cb=20200601103301');
+    background-image: url('../Master_mode_icon.png');
 }
 
 .ftw {
@@ -236,5 +239,5 @@ hr {
     transform: translatey(25%);
     width: 22px;
     height: 22px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/3/32/Bestiary_Boss_Enemy.png/revision/latest/scale-to-width-down/22?cb=20200814185636');
+    background-image: url('../Bestiary_Boss_Enemy.png');
 }

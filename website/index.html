@@ -34,26 +34,26 @@
             <hr>
             <h3 class="Large">Large: <span class="rLarge">▲</span></h3>
             <div id="Large">
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452825232">DrunkFTW-LJ <span class="largeWld"></span><span class="journey"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452821134">DrunkFTW-LC <span class="largeWld"></span><span class="classic"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452823179">DrunkFTW-LE <span class="largeWld"></span><span class="expert"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452827558">DrunkFTW-LM <span class="largeWld"></span><span class="master"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452825232">DrunkFTW-LJ <span class="largeWld"></span><span class="journey"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452821134">DrunkFTW-LC <span class="largeWld"></span><span class="classic"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452823179">DrunkFTW-LE <span class="largeWld"></span><span class="expert"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452827558">DrunkFTW-LM <span class="largeWld"></span><span class="master"></span><span class="ftw"></span></a></p>
             </div>
             <hr>
             <h3 class="Medium">Medium: <span class="rMedium">▲</span></h3>
             <div id="Medium">
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452831493">DrunkFTW-MJ <span class="mediumWld"></span><span class="journey"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452829078">DrunkFTW-MC <span class="mediumWld"></span><span class="classic"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452830290">DrunkFTW-ME <span class="mediumWld"></span><span class="expert"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452832939">DrunkFTW-MM <span class="mediumWld"></span><span class="master"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452831493">DrunkFTW-MJ <span class="mediumWld"></span><span class="journey"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452829078">DrunkFTW-MC <span class="mediumWld"></span><span class="classic"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452830290">DrunkFTW-ME <span class="mediumWld"></span><span class="expert"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452832939">DrunkFTW-MM <span class="mediumWld"></span><span class="master"></span><span class="ftw"></span></a></p>
             </div>
             <hr>
             <h3 class="Small">Small: <span class="rSmall">▲</span></h3>
             <div id="Small">
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452835658">DrunkFTW-SJ <span class="smallWld"></span><span class="journey"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452834001">DrunkFTW-SC <span class="smallWld"></span><span class="classic"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452834974">DrunkFTW-SE <span class="smallWld"></span><span class="expert"></span></a></p>
-                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452836385">DrunkFTW-SM <span class="smallWld"></span><span class="master"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452835658">DrunkFTW-SJ <span class="smallWld"></span><span class="journey"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452834001">DrunkFTW-SC <span class="smallWld"></span><span class="classic"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452834974">DrunkFTW-SE <span class="smallWld"></span><span class="expert"></span><span class="ftw"></span></a></p>
+                <p class="wldLink"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452836385">DrunkFTW-SM <span class="smallWld"></span><span class="master"></span><span class="ftw"></span></a></p>
             </div>
             <hr>
         </div>
@@ -102,13 +102,13 @@
             $(".wldLink").css("display", "none");
 
             if (this.value == 'radioJourney') {
-                $(".journey").parent().css("display", "block");
+                $(".journey").parent().parent().css("display", "block");
             } else if (this.value == 'radioClassic') {
-                $(".classic").parent().css("display", "block");
+                $(".classic").parent().parent().css("display", "block");
             } else if (this.value == 'radioExpert') {
-                $(".expert").parent().css("display", "block");
+                $(".expert").parent().parent().css("display", "block");
             } else if (this.value == 'radioMaster') {
-                $(".master").parent().css("display", "block");
+                $(".master").parent().parent().css("display", "block");
             } else if (this.value == 'radioAll') {
                 $(".wldLink").css("display", "block");
             } else {
