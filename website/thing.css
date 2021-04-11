@@ -168,7 +168,7 @@ hr {
     transform: translatey(25%);
     width: 22px;
     height: 20px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/5/50/Corruption_icon.png/revision/latest/scale-to-width-down/22?cb=20200921104001');
+    background-image: url('../Corruption_icon.png');
 }
 
 .crimson::after {
@@ -178,7 +178,7 @@ hr {
     transform: translatey(25%);
     width: 18px;
     height: 22px;
-    background-image: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a6/Crimson_icon.png/revision/latest/scale-to-width-down/18?cb=20200921104026');
+    background-image: url('../Crimson_icon.png');
 }
 
 .drunk::after {
@@ -188,7 +188,7 @@ hr {
     transform: translatey(25%);
     width: 40px;
     height: 22px;
-    background: url('https://static.wikia.nocookie.net/terraria_gamepedia/images/5/50/Corruption_icon.png/revision/latest/scale-to-width-down/22?cb=20200921104001'), url('https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a6/Crimson_icon.png/revision/latest/scale-to-width-down/18?cb=20200921104026') right;
+    background: url('../Corruption_icon.png'), url('../Crimson_icon.png') right;
     background-repeat: no-repeat;
 }
 
