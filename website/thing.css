@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: >0.001%,defaults,maintained node versions,last 4 versions,not dead
+*/
+
 body {
     margin: 0;
     background-color: #394e87;
@@ -6,9 +13,18 @@ body {
 
 div.header {
     background-color: #394e87;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
 }
 
 h1.header,
@@ -18,9 +34,14 @@ a {
 
 .logo {
     background-color: #2b3865;
-    border-radius: 13px;
+    -webkit-border-radius: 13px;
+       -moz-border-radius: 13px;
+            border-radius: 13px;
     position: relative;
-    transform: translateY(25%);
+    -webkit-transform: translateY(25%);
+       -moz-transform: translateY(25%);
+         -o-transform: translateY(25%);
+            transform: translateY(25%);
     margin-right: 5px;
 }
 
@@ -60,7 +81,9 @@ input {
     background-color: #252954;
     border-color: #313139;
     color: white;
-    border-radius: 10px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
 }
 
 input:focus {
@@ -102,8 +125,14 @@ hr {
     width: -moz-fit-content;
     width: fit-content;
     display: inline-block;
+    -webkit-transition: ease;
+    -o-transition: ease;
+    -moz-transition: ease;
     transition: ease;
-    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+       -moz-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
 }
 
 .rrLarge,
@@ -114,8 +143,14 @@ hr {
     width: -moz-fit-content;
     width: fit-content;
     display: inline-block;
+    -webkit-transition: ease;
+    -o-transition: ease;
+    -moz-transition: ease;
     transition: ease;
-    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+       -moz-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
     -moz-transform: rotate(180deg);
     /* FF3.5+ */
     -o-transform: rotate(180deg);
@@ -141,7 +176,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 26px;
     height: 26px;
     background-image: url('../Large_world_icon.png');
@@ -151,7 +189,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 22px;
     height: 22px;
     background-image: url('../Medium_world_icon.png');
@@ -161,7 +202,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 18px;
     height: 18px;
     background-image: url('../Small_world_icon.png');
@@ -171,7 +215,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 22px;
     height: 20px;
     background-image: url('../Corruption_icon.png');
@@ -181,7 +228,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 18px;
     height: 22px;
     background-image: url('../Crimson_icon.png');
@@ -191,7 +241,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 40px;
     height: 22px;
     background: url('../Corruption_icon.png'), url('../Crimson_icon.png') right;
@@ -202,7 +255,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 18px;
     height: 24px;
     background-image: url('../Journey_mode_icon.png');
@@ -212,7 +268,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 18px;
     height: 24px;
     background-image: url('../Classic_mode_icon.png');
@@ -222,7 +281,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 18px;
     height: 26px;
     background-image: url('../Expert_mode_icon.png');
@@ -232,7 +294,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 18px;
     height: 26px;
     background-image: url('../Master_mode_icon.png');
@@ -242,7 +307,10 @@ hr {
     content: " ";
     display: inline-block;
     position: relative;
-    transform: translatey(25%);
+    -webkit-transform: translatey(25%);
+       -moz-transform: translatey(25%);
+         -o-transform: translatey(25%);
+            transform: translatey(25%);
     width: 22px;
     height: 22px;
     background-image: url('../Bestiary_Boss_Enemy.png');
