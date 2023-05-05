@@ -26,8 +26,14 @@ a {
 
 .body div {
     background-color: #2b3865;
-    border-radius: 10px;
-    width: 100%;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: stretch; 
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .body div h2,
